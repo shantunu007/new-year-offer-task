@@ -304,11 +304,59 @@ main {
     margin-top: 219px;
   }
 
+  
+
+
   .discount-image img {
     position: absolute;
     z-index: 1;
     right: 41%;
-    top: 460%;
+    top: 461%;
+  }
+
+  .title {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29px;
+
+  }
+
+  .portfolio-title {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-top: 16px;
+    margin-bottom: 22px;
+  }
+
+  .portfolio-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    margin-bottom: 48px;
+  }
+
+  .title, .portfolio-title, .portfolio-description {
+    margin-left: 171px;
+  }
+
+  .portfolio-images {
+    margin-left: 171px;
+  }
+
+  .portfolio-images img {
+    width: 424px;
+    height: 450px;
+    margin-bottom: 24px;
+    margin-right: 24px;
   }
 
 
