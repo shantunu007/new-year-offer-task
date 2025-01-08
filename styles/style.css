@@ -16,10 +16,10 @@
     margin: 50px auto;
 }
 .banner-container {
-    gap: 16px;
     text-align: center;
-    padding: 110px 344px;
-    
+    padding: 185px 344px;
+    position: relative;
+
 }
 
 .banner-title {
@@ -27,7 +27,10 @@
     font-size: 32px;
     font-weight: 400;
     font-family: "Merriweather", serif;
-    
+    position: absolute;
+    top: 140px;
+    right: 0;
+    left: 8px;
 }
 
 .banner-info {
@@ -437,6 +440,65 @@ main {
     line-height: 24px;
     text-transform: capitalize;
   }
+
+  /* footer styles */
+
+  footer {
+    background-color: #070211;
+    height: 729px;
+    color: #fff;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+  }
+
+  .footer-container {
+    width: 1320px;
+    margin: 0 auto;
+  }
+
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+  }
+
+  
+.address, .phone-address {
+  margin-top: 120px;
+  margin-bottom: 50px;
+}
+
+.phone-address {
+  margin-right: 130px;
+}
+
+.social-icons img {
+  margin: 48px 0 48px 24px;
+}
+
+
+.phone-address i {
+  margin-right: 10px;
+}
+.number i {
+  margin-right: 25px;
+}
+.web-address {
+  margin-left: 54px;
+}
+.number {
+  margin-left: 48px;
+}
+
 
 
 
