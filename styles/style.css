@@ -65,6 +65,8 @@ main {
     margin-bottom: -24px;
 }
 
+/* celebration section styles */
+
 .categories-list {
     font-family: "Inter", serif;
     font-size: 48px;
@@ -72,3 +74,50 @@ main {
     font-weight: 700px;
     margin-bottom: 48px;
 }
+
+.celebration-bg {
+    background: linear-gradient(90.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Vectorrr.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 120px auto;
+    border-radius: 16px;
+}
+
+.celebration-info {
+    width: 700px;
+    padding-left: 126px;
+    padding-top: 76px;
+}
+
+.celebration-info .celebration-title {
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+    letter-spacing: 7px;
+    margin-bottom: 24px;
+}
+
+.celebration-description {
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 0.8;
+    line-height: 30px;
+    font-family: "Inter", serif;
+    margin-bottom: 48px;
+}
+
+.join-btn {
+    font-family: "Inter", serif;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
