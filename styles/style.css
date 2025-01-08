@@ -121,3 +121,111 @@ main {
     cursor: pointer;
 }
 
+ 
+/* holiday section styles */
+
+.holiday-info {
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.joining-info {
+    height: 482px;
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    padding: 100px 386px 214px 385px;
+    text-align: center;
+}
+
+.joining-info p {
+    font-family: "Inter", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: -25px;
+}
+
+.joining-info span {
+    color: #FF0000;
+}
+
+.joining-btn {
+    width: 167px;
+    padding: 16px 32px;
+    background-color: #FF0000;
+    font-size: 20;
+    font-weight: 700;
+    margin: 0 auto;
+    font-family: "Inter", serif;
+    border-radius: 8px;
+    color: #fff;
+    margin-top: 56px;
+}
+
+.offer-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.best-offer {
+    width: 393px;
+}
+
+.offer-title {
+    font-family: "Inter", serif;
+    color: #FF0000;
+    font-size: 20px;
+    font-size: 500;
+    margin-top: 53px;
+}
+
+.offer-release {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    font-family: "Merriweather", serif;
+     margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+
+.offer-description, .year-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0%;
+
+}
+
+.celebration-image {
+    width: 463px;
+}
+
+.year {
+    color: rgb(255, 0, 0);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 58px;
+}
+
+.new-year-des {
+    width: 300px;
+}
+
+.celebration-image img {
+    border: 15px solid #F00;
+    width: 370px;
+    height: 370px;
+    border-radius: 50%;
+    padding: 25px;
+  }
+
+
+
+
