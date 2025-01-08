@@ -310,8 +310,10 @@ main {
   .discount-image img {
     position: absolute;
     z-index: 1;
-    right: 41%;
-    top: 461%;
+    right: 47%;
+    top: 466%;
+    width: 674px;
+    height: 577px;
   }
 
   .title {
@@ -356,8 +358,87 @@ main {
     width: 424px;
     height: 450px;
     margin-bottom: 24px;
-    margin-right: 24px;
+    margin-right: 21px;
   }
+
+  .subscribe {
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+    width: 1320px;
+    height: 616px;
+    margin-left: 171px;
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    align-items: center;
+  }
+
+  .subscribe img {
+    margin-top: 80px;
+  }
+
+  .newsletter {
+    color: rgb(7, 2, 17);
+    font-family: Merriweather;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 60px;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-bottom: 22px;
+  }
+
+  .subscribe-description {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 896px;
+    padding: 0 212px;
+    margin-bottom: 48px;
+  }
+
+  form {
+    position: relative;
+  }
+  form input {
+    width: 380px;
+    height: 22px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    margin-left: -231px;
+    padding: 25px 30px;
+    color: rgba(7, 2, 17, 0.3);
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+  }
+
+  input [type="email"] {
+    margin-left: 2px;
+  }
+
+  .subs-btn {
+    background-color: #FF0000;
+    width: 224px;
+    height: 72px;
+    border: none;
+    border-radius: 0 50px 50px 0;
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 330px;
+    bottom: 0;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    text-transform: capitalize;
+  }
+
+
 
 
 
