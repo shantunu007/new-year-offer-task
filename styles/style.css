@@ -1,2 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+/* header banner styles */
+
+
+.banner-bg {
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgb(7, 2, 17),rgba(7, 2, 17, 0) 100%), url("../images/Banner\ Image.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1320px;
+    height: 600px;
+    margin: 50px auto;
+}
+.banner-container {
+    gap: 16px;
+    text-align: center;
+    padding: 110px 344px;
+    
+}
+
+.banner-title {
+    color: #fff;
+    font-size: 32px;
+    font-weight: 400;
+    font-family: "Merriweather", serif;
+    
+}
+
+.banner-info {
+    color: #fff;
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 95px;
+    font-family: "Merriweather", serif;
+}
+
+/* main styles */
+
+main {
+    margin: 120px;
+}
+
+.categories {
+    text-align: center;
+    align-items: center;
+}
+
+.discount {
+    font-family: "Inter", serif;
+    font-size: 88px;
+    color: #FF0000;
+    font-weight: 700px;
+    margin-bottom: 48px;
+}
+
+.discount-title {
+    font-family: "Inter", serif;
+    font-size: 24px;
+    color: #FF0000;
+    font-weight: 600px;
+    margin-bottom: -24px;
+}
+
+.categories-list {
+    font-family: "Inter", serif;
+    font-size: 48px;
+    color: #070211;
+    font-weight: 700px;
+    margin-bottom: 48px;
+}
