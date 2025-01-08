@@ -169,6 +169,8 @@ main {
     cursor: pointer;
 }
 
+/* offer section styles */
+
 .offer-container {
     display: flex;
     justify-content: space-between;
@@ -230,10 +232,11 @@ main {
     padding: 25px;
   }
 
+  /* discount section styles */
+
   .discount-container {
     text-align: center;
     margin: 120px;
-    /* position: relative; */
   }
 
   .discount-container-title {
@@ -263,7 +266,7 @@ main {
     width: 860px;
     margin: 0 auto;
     color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 20px;
     font-weight: 500;
     line-height: 32px;
@@ -272,7 +275,7 @@ main {
 
   .big-offer {
     color: rgb(255, 255, 255);
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 24.34px;
     font-weight: 700;
     line-height: 27px;
@@ -280,7 +283,7 @@ main {
   }
   .discount-tag span {
     color: rgb(255, 255, 255);
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 73.02px;
     font-weight: 900;
     line-height: 29px;
@@ -320,6 +323,8 @@ main {
     height: 577px;
   }
 
+  /* portfolio section styles */
+
   .title {
     color: rgb(255, 0, 0);
     font-family: Inter;
@@ -331,7 +336,7 @@ main {
 
   .portfolio-title {
     color: rgb(7, 2, 17);
-    font-family: Merriweather;
+    font-family: "Merriweather", serif;
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
@@ -342,7 +347,7 @@ main {
 
   .portfolio-description {
     color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -366,6 +371,8 @@ main {
     margin-right: 21px;
   }
 
+  /* subscribe section styles */
+
   .subscribe {
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
@@ -384,7 +391,7 @@ main {
 
   .newsletter {
     color: rgb(7, 2, 17);
-    font-family: Merriweather;
+    font-family: "Merriweather", serif;
     font-size: 48px;
     font-weight: 900;
     line-height: 60px;
@@ -395,7 +402,7 @@ main {
 
   .subscribe-description {
     color: rgba(7, 2, 17, 0.6);
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 32px;
@@ -415,7 +422,7 @@ main {
     margin-left: -231px;
     padding: 25px 30px;
     color: rgba(7, 2, 17, 0.3);
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 22px;
@@ -436,7 +443,7 @@ main {
     top: 0;
     right: 330px;
     bottom: 0;
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 20px;
     font-weight: 600;
     line-height: 24px;
@@ -452,7 +459,7 @@ main {
     color: #fff;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-family: Inter;
+    font-family: "Inter", serif;
     font-size: 24px;
     font-weight: 500;
     line-height: 40px;
