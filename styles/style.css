@@ -86,6 +86,12 @@ main {
     height: 600px;
     margin: 120px auto;
     border-radius: 16px;
+    display: flex;
+}
+
+.new-year img {
+  margin-top: 68px;
+  margin-left: 28px;
 }
 
 .celebration-info {
@@ -296,7 +302,7 @@ main {
     background-color: #FF0000;
     text-align: center;
     rotate: -34.21deg;
-    margin-top: 141px;
+    margin-top: 285px;
     margin-bottom: 50px;
     margin-left: 74%;
   }
@@ -308,7 +314,7 @@ main {
     margin: 0 auto;
     border-radius: 16px 0 16px 16px;
     position: relative;
-    margin-top: 219px;
+    margin-top: 146px;
   }
 
   
@@ -318,7 +324,7 @@ main {
     position: absolute;
     z-index: 1;
     right: 47%;
-    top: 466%;
+    top: 473%;
     width: 674px;
     height: 577px;
   }
